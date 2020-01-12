@@ -35,3 +35,9 @@ Basta alterar de acordo com a sintaxe.
 
 Variação do SEO (Startup Execute Once).
 Não exclui o arquivo de batch ao final da sua execução, permitindo que a cada inicio de sessão os comandos se repitam.
+
+## Hidden User Exploit
+
+- Creates a user with Administrative rights on system.
+- Denies its local login access. (TO-DO)
+- Only accessible remotely. (TO-DO)
