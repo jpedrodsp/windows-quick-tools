@@ -29,3 +29,11 @@ start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_youtube-dl.bat"
 ::Install 7-Zip
 echo "Installing 7-Zip"
 start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_7zip.bat"
+
+::Install K-Lite Codec Pack Mega
+echo "Installing K-Lite Codec Pack Mega"
+start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_klite-mega.bat"
+
+::Install VLC Media Player
+echo "Installing VLC Media Player"
+start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_vlc.bat"
