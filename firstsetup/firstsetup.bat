@@ -37,3 +37,11 @@ start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_klite-mega.bat"
 ::Install VLC Media Player
 echo "Installing VLC Media Player"
 start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_vlc.bat"
+
+::Install Docker Desktop
+echo "Installing Docker Desktop"
+start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_docker-desktop.bat"
+
+::Install VirtualBox
+echo "Installing VirtualBox"
+start "Please wait..." /wait "cmd.exe" "/c %~dp0scripts\install_virtualbox.bat"
