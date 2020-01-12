@@ -14,8 +14,19 @@ Utilitário que instala aplicativos padrões básicos no sistema.
 - Editor de Código: Visual Studio Code
 - Git
 
-## Startup Execute Once (Não-funcional)
+## Startup Execute Once
 
-Um utilitário que em tese deveria executar um script ao inicio de sessão do usuário.
-No Windows 10, scripts não podem acessar a pasta "%AppData%\Roaming\Microsoft" por medidas de segurança.
-Logo, o script de exclusão do batch não funciona.
+Um utilitário que executa um batch ao inicio de sessão do usuário, uma única vez.
+Logo após, o batch será excluído.
+O batch a ser instalado está em "scripts\so-runner.bat".
+Altere-o do jeito que desejar.
+
+Para instalar o batch, execute o arquivo "install.bat".
+Ele copiará o batch para a pasta "Inicializar" no Menu Iniciar.
+
+## Startup Execute Once (Stealth)
+
+O mesmo que o anterior, mas propõe em executar os comandos de maneira menos perceptível ou incômoda.
+O batch a ser instalado está em "scripts\so-runner-stealth.bat".
+
+Basta alterar de acordo com a sintaxe.
