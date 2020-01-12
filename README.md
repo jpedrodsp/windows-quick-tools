@@ -30,3 +30,8 @@ O mesmo que o anterior, mas propõe em executar os comandos de maneira menos per
 O batch a ser instalado está em "scripts\so-runner-stealth.bat".
 
 Basta alterar de acordo com a sintaxe.
+
+## Startup Execute
+
+Variação do SEO (Startup Execute Once).
+Não exclui o arquivo de batch ao final da sua execução, permitindo que a cada inicio de sessão os comandos se repitam.
